@@ -9,5 +9,8 @@ Typescript version: 4.9.4
 To start the project run
 
 $ yarn
+
 $ yarn build
+
 $ yarn start
+
