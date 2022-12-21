@@ -1,0 +1,23 @@
+{
+  "name": "PizzaPipeline",
+  "author": "Hakob Grigoryan",
+  "email": "hakobagrigoryan@gmail.com",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "node ./build/src/index.js",
+    "rebuild": "yarn build && yarn start",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "fix": "gts fix"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "gts": "^3.1.1"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
