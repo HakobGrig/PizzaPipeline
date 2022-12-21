@@ -7,10 +7,9 @@
   "private": true,
   "scripts": {
     "build": "yarn tsc",
-    "start": "node ./build/src/index.js",
+    "start": "node ./dist/src/index.js",
     "rebuild": "yarn build && yarn start",
     "lint": "gts lint",
-    "clean": "gts clean",
     "fix": "gts fix"
   },
   "devDependencies": {
